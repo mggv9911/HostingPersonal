@@ -1,0 +1,50 @@
+/*Inicio responcivo*/
+
+@media screen and (max-width: 480px) and (min-width: 280px) and (orientation: portrait)
+{
+  .apartado
+  {
+    background-image: linear-gradient(180deg, #012428 0, #061e20 12.5%, #061817 25%, #030f0d 37.5%, #000000 50%, #000000 62.5%, #000000 75%, #000000 87.5%, #000000 100%);
+  }
+  #parte1
+  {
+    display: none;
+  }
+  #chefArriba
+  {
+    display: block;
+    width: 20%;
+    height: 20%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: fixed;
+  }
+  #parte2
+  {
+    width: 100%;
+    height: 100vh;
+  }
+  #titulo1
+  {
+    text-align: center;
+    padding-top: 25%;
+    padding-left: 5%;
+  }
+  .zonaTexto
+  {
+    padding-left: 10%;
+  }
+  .texto
+  {
+    color: white;
+  }
+  label
+  {
+    color: white;
+  }
+  h2
+  {
+    color: white;
+  }
+}
+/*Fin responsivo*/
