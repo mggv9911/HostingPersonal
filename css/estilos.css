@@ -1,0 +1,154 @@
+/*inicio de extras*/
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Concert+One&family=Creepster&family=Odibee+Sans&family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+/*fin de extras*/
+/*Aspectos generales*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{font-size: 0px;}
+/*Fin de aspectos generales*/
+/*Inicio de menu*/
+nav{
+  width: 100%;
+  position: absolute;
+  top:50px;
+  text-align:center;
+}
+nav a{
+  font-family: 'Oswald', sans-serif;
+  font-weight:500;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:#16151b;
+  margin:0 15px;
+  font-size:16px;
+  letter-spacing:1px;
+  position:relative;
+  display:inline-block;
+}
+nav a:before{
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background:#16151b;
+  top:47%;
+  animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+}
+#bla1
+{
+  margin-left:3%;
+}
+nav .neg:hover
+{
+  color: black;
+}
+nav .bla
+{
+  color: white;
+}
+nav .bla:hover
+{
+  color: white;
+}
+nav a:hover:before{
+  animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+
+}
+@keyframes in{
+  0%{
+    width: 0;
+    left:0;
+    right:auto;
+  }
+  100%{
+    left:0;
+    right:auto;
+    width: 100%;
+  }
+}
+@keyframes out{
+  0%{
+    width:100%;
+    left: auto;
+    right: 0;
+  }
+  100%{
+    width: 0;
+    left: auto;
+    right: 0;
+  }
+}
+@keyframes show{
+  0%{
+    opacity:0;
+    transform:translateY(-10px);
+  }
+  100%{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+/*Fin del menu*/
+/*Textos h*/
+h1
+{
+    margin-top: -100px;
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Concert One', cursive;
+    color: black;
+}
+h4
+{
+    text-align: justify;
+}
+/*Fin de textos h*/
+/*Seciones*/
+.imgPrincipal
+{
+  width: 100%;
+  height: 100vh;
+}
+.secciones
+{
+  width: 100%;
+  height: 800px;
+}
+header
+{
+  margin-left: 17%;
+  display: inline-block;
+}
+/*seccion de quien soy inicio*/
+.quien
+{
+  width: 100%;
+  height: 500px;
+}
+/*seccion de quien soy final */
+/*Fin de secciones*/
+/*Inicio de footer*/
+footer
+{
+  width: 100%;
+  height: 90px;
+  background-image: linear-gradient(135deg, #00818c 0, #0e6974 16.67%, #194e58 33.33%, #1a3239 50%, #14191b 66.67%, #020000 83.33%, #000000 100%);
+}
+#tituloFoo  
+{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  font-family: cursive;
+}
+#linkF
+{
+  text-decoration: none;
+}
+/*Fin de footer*/
